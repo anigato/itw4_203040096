@@ -1,0 +1,30 @@
+.brand-logo img {
+    width: 90px;
+}
+
+.nav-wrapper a,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0,0.5);
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+
+.parallax img {
+    filter: grayscale(1);
+    /* important untuk memaksa css bekerja */
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section,
+footer {
+    padding: 5px 0;
+}
